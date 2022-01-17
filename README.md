@@ -13,3 +13,4 @@ Unlinked items are unreleased/WIPs
 * 05_graph_algorithm
 * 06_error_handling
 * 07_macros
+* [08_error_handling](./08_error_handling)
