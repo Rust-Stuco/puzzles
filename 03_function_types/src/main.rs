@@ -34,8 +34,10 @@ fn goal3() {}
 /* END EDIT SECTION */
 
 /// Goal 4 (Extra Credit): rewrite this function to use references instead!
-/* BEGIN EDIT SECTION */
+/// (you can remove the block comment if you'd like to attempt, just be sure to only
+/// edit the function header)
 /*
+/* BEGIN EDIT SECTION */
 fn takes_choose_with_lifetimes(f: impl Fn(&String, &String) -> &String)
 {
     /* END EDIT SECTION */
