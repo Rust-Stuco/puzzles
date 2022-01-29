@@ -186,7 +186,7 @@ mod tests {
                 Box::new(Tree::Leaf(3)),
                 2,
                 Box::new(Tree::Leaf(5)),
-            ),
+            )),
             1,
             Box::new(Tree::Node(
                 Box::new(Tree::Leaf(-4)),
