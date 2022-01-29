@@ -1,5 +1,4 @@
 [workspace]
 members = [
-  "03_function_types",
-  "08_error_handling",
+  "*",
 ]

@@ -7,7 +7,7 @@ Programming Language.
 Unlinked items are unreleased/WIPs
 
 * [01_instructions.md](./01_instructions.md)
-* 02_pattern_matching
+* [02_rust_basics](./02_rust_basics)
 * [03_function_types](./03_function_types)
 * 04_polymorphism
 * 05_graph_algorithm
