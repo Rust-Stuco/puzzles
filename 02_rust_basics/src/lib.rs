@@ -91,9 +91,9 @@ mod tests {
         assert_eq!(c.green, d.green);
         assert_eq!(c.blue, d.blue);
 
-        assert_eq!(c.red, 144);
-        assert_eq!(c.green, 38);
-        assert_eq!(c.blue, 182);
+        assert_eq!(c.red, 102);
+        assert_eq!(c.green, 26);
+        assert_eq!(c.blue, 129);
     }
 
     #[test]
