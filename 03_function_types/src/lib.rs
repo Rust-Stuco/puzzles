@@ -28,7 +28,7 @@ fn task_4_function(f: impl Fn(&String, &String) -> &String) -> String {
 */
 // Comment this function out if actually attempting Task 4; this is just here to make the code
 // compile when TASK_4_ATTEMPTED is set to false
-fn task_4_function<T>(f: &T) -> String {
+fn task_4_function<T>(_f: T) -> String {
     String::from("foobar")
 }
 
@@ -91,7 +91,7 @@ mod tests {
             y
         }
 
-        if (TASK_4_ATTEMPTED) {
+        if TASK_4_ATTEMPTED {
             assert_eq!(task_4_function(get_first), "x");
             assert_eq!(task_4_function(get_second), "y");
         }
